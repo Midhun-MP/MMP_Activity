@@ -20,7 +20,7 @@ If you didn't changed the install path the normal path will be:
 
 Create the activity indicator:
 
-	var smsModule = require('com.midhun.progress');
+	var my_module = require('com.midhun.progress');
         var wind = Ti.UI.createWindow();               //your window
         var foo = my_module.createHUD({
 	        color	:"transparent",
@@ -30,6 +30,7 @@ Create the activity indicator:
   	        type  	: "MMP_Type1",  
         });                                          //creating Activity Indicator
        wind.add(foo)                                 //Adding indicator to your window
+       wind.open();
 
 Argument Description:
 ______________________
