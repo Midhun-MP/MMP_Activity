@@ -14,26 +14,26 @@ Step to integrate the module with your project:
 		b. If you are using the xml file, add the below lines to your tiapp.xml.
 ```
 
-			<modules>
-        			<module platform="iphone" version="1.0">com.midhun.progress</module>
-	    		</modules>
+<modules>
+   <module platform="iphone" version="1.0">com.midhun.progress</module>
+</modules>
 
 ```
 
 Create the activity indicator:
 ```
 
-	var my_module = require('com.midhun.progress');
-        var wind = Ti.UI.createWindow();               //your window
-        var foo = my_module.createHUD({
-	        color	:"transparent",
-  	        width	:'100%',
-  	        height	:'100%',
-  	        text  	: "Hello",
-  	        type  	: "MMP_Type1",  
-        });                                          //creating Activity Indicator
-       wind.add(foo)                                 //Adding indicator to your window
-       wind.open();
+var my_module = require('com.midhun.progress');
+var wind = Ti.UI.createWindow();               //your window
+var foo = my_module.createHUD({
+	color	:"transparent",
+  	width	:'100%',
+  	height	:'100%',
+  	text  	: "Hello",
+  	type  	: "MMP_Type1",  
+});                                          //creating Activity Indicator
+wind.add(foo)                                 //Adding indicator to your window
+wind.open();
 
 ```
 #####Argument Description:
