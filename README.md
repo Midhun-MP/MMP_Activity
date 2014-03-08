@@ -31,8 +31,8 @@ var foo = my_module.createHUD({
   	height	:'100%',
   	text  	: "Hello",
   	type  	: "MMP_Type1",  
-});                                          //creating Activity Indicator
-wind.add(foo)                                 //Adding indicator to your window
+});                                            //creating Activity Indicator
+wind.add(foo)                                  //Adding indicator to your window
 wind.open();
 
 ```
@@ -58,7 +58,6 @@ For Further Details Contact:
 
 	Midhun M P
 	Email : midhunmp7@gmail.com
-	Mobile: +91 9846389231
 
 
 Special Thanks
